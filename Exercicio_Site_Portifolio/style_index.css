@@ -16,19 +16,6 @@ body{
     transition: background-color .5s;
 }
 
-body.active{
-    background-color: #191a1c;
-    color: #fff;
-}
-
-body.active .information a{
-    color: #fff;
-}
-
-body.active .section-1 h3{
-    color: rgb(208, 197, 197);
-}
-
 header .information{
     display: flex;
 }
@@ -167,4 +154,35 @@ footer h4{
 .nav h4{
     color: black;
     margin-right: 2em;
+}
+
+
+/*DARK THEME*/
+body.active{
+    background-color: #191a1c;
+    color: #fff;
+}
+
+body.active .information a{
+    color: #fff;
+}
+
+body.active .section-1 h3{
+    color: rgb(208, 197, 197);
+}
+
+body.active .section-2 a{
+    color: #fff;
+}
+
+body.active .section-2 .block{
+    background-color: #a09898;
+}
+
+body.active footer h4{
+    color: rgb(0, 140, 255);
+}
+
+body.active footer .nav h4{
+    color: #fff;
 }

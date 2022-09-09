@@ -10,6 +10,6 @@ btn.onclick = function(){
         setaDireita.src="images/right_arrow_white.png";
     }
     else{
-        setaBaixo.src="images/right-arrow.png";
+        setaDireita.src="images/right-arrow.png";
     }
 }
